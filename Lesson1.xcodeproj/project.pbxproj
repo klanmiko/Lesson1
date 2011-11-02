@@ -18,6 +18,7 @@
 		26DC8869145FE24700A1D4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DC8850145FE24600A1D4F4 /* Foundation.framework */; };
 		26DC8871145FE24700A1D4F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26DC886F145FE24700A1D4F4 /* InfoPlist.strings */; };
 		26DC8874145FE24700A1D4F4 /* Lesson1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DC8873145FE24700A1D4F4 /* Lesson1Tests.m */; };
+		26DC887E145FE27300A1D4F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DC887D145FE27300A1D4F4 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,19 @@
 		26DC884E145FE24600A1D4F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26DC8850145FE24600A1D4F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26DC8852145FE24600A1D4F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		26DC8856145FE24600A1D4F4 /* Lesson1-Info.plist */ = {isa = PBXFileReference; path = "Lesson1-Info.plist"; sourceTree = "<group>"; };
+		26DC8856145FE24600A1D4F4 /* Lesson1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson1-Info.plist"; sourceTree = "<group>"; };
 		26DC8858145FE24700A1D4F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26DC885A145FE24700A1D4F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		26DC885C145FE24700A1D4F4 /* Lesson1-Prefix.pch */ = {isa = PBXFileReference; path = "Lesson1-Prefix.pch"; sourceTree = "<group>"; };
-		26DC885D145FE24700A1D4F4 /* Lesson1AppDelegate.h */ = {isa = PBXFileReference; path = Lesson1AppDelegate.h; sourceTree = "<group>"; };
+		26DC885C145FE24700A1D4F4 /* Lesson1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lesson1-Prefix.pch"; sourceTree = "<group>"; };
+		26DC885D145FE24700A1D4F4 /* Lesson1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson1AppDelegate.h; sourceTree = "<group>"; };
 		26DC885E145FE24700A1D4F4 /* Lesson1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson1AppDelegate.m; sourceTree = "<group>"; };
 		26DC8865145FE24700A1D4F4 /* Lesson1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DC8866145FE24700A1D4F4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		26DC886E145FE24700A1D4F4 /* Lesson1Tests-Info.plist */ = {isa = PBXFileReference; path = "Lesson1Tests-Info.plist"; sourceTree = "<group>"; };
+		26DC886E145FE24700A1D4F4 /* Lesson1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson1Tests-Info.plist"; sourceTree = "<group>"; };
 		26DC8870145FE24700A1D4F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		26DC8872145FE24700A1D4F4 /* Lesson1Tests.h */ = {isa = PBXFileReference; path = Lesson1Tests.h; sourceTree = "<group>"; };
+		26DC8872145FE24700A1D4F4 /* Lesson1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson1Tests.h; sourceTree = "<group>"; };
 		26DC8873145FE24700A1D4F4 /* Lesson1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson1Tests.m; sourceTree = "<group>"; };
+		26DC887D145FE27300A1D4F4 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		26DC883F145FE24600A1D4F4 = {
 			isa = PBXGroup;
 			children = (
+				26DC887D145FE27300A1D4F4 /* MainWindow.xib */,
 				26DC8854145FE24600A1D4F4 /* Lesson1 */,
 				26DC886C145FE24700A1D4F4 /* Lesson1Tests */,
 				26DC884D145FE24600A1D4F4 /* Frameworks */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26DC8859145FE24700A1D4F4 /* InfoPlist.strings in Resources */,
+				26DC887E145FE27300A1D4F4 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

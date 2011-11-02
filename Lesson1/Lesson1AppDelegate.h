@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface Lesson1AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    IBOutlet UILabel *label;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+
+-(IBAction) changeText:(id)sender;
 
 @end
